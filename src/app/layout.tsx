@@ -33,6 +33,20 @@ const neuePlak = localFont({
   variable: "--font-neue-plak",
 });
 
+// src: [
+//   {
+//     path: "../fonts/neue-plak/NeuePlakRegular.ttf",
+//     weight: "400",
+//     style: "normal",
+//   },
+//   {
+//     path: "../fonts/neue-plak/NeuePlakSemiBold.ttf",
+//     weight: "600",
+//     style: "normal",
+//   },
+// ],
+// });
+
 export const metadata: Metadata = {
   title: "Horizon",
   description:

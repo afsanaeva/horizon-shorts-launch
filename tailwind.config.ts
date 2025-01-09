@@ -9,7 +9,13 @@ export default {
   theme: {
     extend: {
       screens: {
-        "3xl": "1700px",
+        "xs": "360px", // Smaller screens
+        "sm": "480px", // Small screens
+        "md": "768px", // Medium screens
+        "lg": "1024px", // Large screens
+        "xl": "1280px", // Extra large screens
+        "2xl": "1440px", // 2X large screens
+        "3xl": "1920px", // Custom large screen
       },
       fontFamily: {
         neuePlak: ["var(--font-neue-plak)"],

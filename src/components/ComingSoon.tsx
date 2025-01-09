@@ -5,29 +5,30 @@ export default function ComingSoon() {
   return (
     <div className="min-h-screen flex flex-col relative overflow-hidden font-neuePlak bg-white text-[#15234E] z-10">
       {/* Animated gradient background */}
-      <div className="blur-3xl opacity-50 absolute inset-0 -z-10">
+      <div className="blur-3xl absolute inset-0 -z-10">
         <div
-          className="absolute blur-3xl inset-0 -z-10 w-[50vw] h-[50vh]"
+          className="absolute blur-3xl inset-0 -z-10 w-[50vw] h-[110vh]"
           style={{
             background:
-              "linear-gradient(-45deg, #FF9CB4, #C3AEFF, #9CD5FF, #95D1FC, transparent)",
+              "linear-gradient(-45deg, #FFC0CF, #C3AEFF, #9CD5FF, #95D1FC, transparent)",
             backgroundSize: "200% 200%",
-            animation: "gradient 10s ease infinite, rotate 10s linear infinite",
+            animation: "gradient 10s ease infinite",
             maskImage: "linear-gradient(to bottom, black, transparent)",
             WebkitMaskImage: "linear-gradient(to bottom, black, transparent)",
           }}
         />
         <div
-          className="absolute blur-3xl inset-0 ml-auto -z-10 w-[50vw] h-[50vh]"
+          className="absolute blur-3xl inset-0 ml-auto -z-10 w-[50vw] h-[110vh]"
           style={{
             background:
-              "linear-gradient(-45deg, #95D1FC, #9CD5FF, #C3AEFF, #FF9CB4, transparent)",
+              "linear-gradient(-45deg, #95D1FC, #9CD5FF, #C3AEFF, #FFC0CF, transparent)",
             backgroundSize: "200% 200%",
-            animation: "gradient 10s ease infinite, rotate 10s linear infinite",
+            animation: "gradient 10s ease infinite",
             maskImage: "linear-gradient(to bottom, black, transparent)",
             WebkitMaskImage: "linear-gradient(to bottom, black, transparent)",
           }}
         />
+
         <div
           className="absolute inset-0 -z-9"
           style={{
@@ -46,26 +47,27 @@ export default function ComingSoon() {
 
       {/* Main content */}
       <main className="flex-1 flex flex-col items-center justify-center px-4 text-center">
-        <h2 className="text-[#15234E] max-[430px]:text-[14vw]  max-sm:text-[58px] sm:text-[70px] lg:text-[62px] xl:text-[82px] 3xl:text-[100px] mb-6 sm:mb-12 lg:mb-14 xl:mb-16 3xl:mb-20 max-w-4xl font-medium leading-none tracking-[-2px]">
+        <h2 className="text-[#15234E] max-[430px]:text-[14vw]  max-sm:text-[58px] xs:text-[43.5px] sm:text-[70px] lg:text-[62px] xl:text-[82px] 3xl:text-[100px] mb-6 sm:mb-12 lg:mb-14 xl:mb-16 3xl:mb-20 max-w-4xl font-medium leading-none tracking-[-2px]">
           Grow Infinite. <br /> Explore More Soon.
         </h2>
-        <p className="text-[#15234E] text-[22px] lg:text-[24px] 3xl:text-[28px] leading-tight mb-8 lg:mb-14 xl:mb-16 3xl:mb-20 max-w-[76rem] ">
+        <p className="text-[16.5px] xs:text-[16.5px] sm:text-[22px] lg:text-[24px] xl:text-[24px] 2xl:text-[26px] 3xl:text-[28px] leading-tight mb-5 xs:mb-5 sm:mb-8 lg:mb-14 xl:mb-16 3xl:mb-20 max-w-[74rem] ">
           Horizon is the world's first Super Engagement Platform, enabling
           enterprises to deliver big-tech-level engagement at scale and drive
           unparalleled growth. Stay tuned for our official website launch!
         </p>
+
         <Link
           href="https://youtu.be/3ZTu_MomC5Y"
           target="_blank"
-          className="inline-flex h-14 items-center justify-center  bg-[#15234E] text-white max-sm:w-full px-8 text-[22px] transition-colors duration-100 hover:bg-transparent hover:text-[#15234E] border border-[#15234E] rounded-full mb-8 lg:mb-10 xl:mb-12 3xl:mb-20"
+          className="inline-flex h-8 xs:h-[38px] sm:h-10 lg:h-12 xl:h-12 2xl:h-12 3xl:h-14 items-center justify-center bg-[#15234E] text-white max-md:w-full px-8 text-[16.5px] xs:text-[16.5px] sm:text-[22px] lg:text-[22px] 2xl:text-[22px] 3xl:text-[22px]transition-colors duration-100 hover:bg-transparent hover:text-[#15234E] border border-[#15234E] rounded-full mb-5 xs:mt-10 lg:mb-10 xl:mb-12 3xl:mb-20 font-normal"
         >
           Watch the intro
         </Link>
       </main>
 
       {/* Footer */}
-      <footer className="py-10 max-md:text-center bg-white">
-        <div className="max-w-[1800px] px-8 mx-auto relative flex flex-col md:flex-row items-center justify-between gap-6 text-sm">
+      <footer className="py-[28px] max-md:text-center bg-white">
+        <div className="max-w-[1800px] px-8 mx-auto relative flex flex-col sm:flex-row items-center justify-between gap-6">
           <Link
             href="https://www.linkedin.com/company/horizonera"
             target="_blank"
@@ -74,7 +76,7 @@ export default function ComingSoon() {
           >
             <LinkedIn />
           </Link>
-          <div className="w-full mx-auto relative flex flex-col md:flex-row items-center justify-between gap-2 md:gap-4 text-[18px]">
+          <div className="w-full mx-auto relative flex flex-col md:flex-row items-center justify-between gap-2 md:gap-4 text-[13.5px] xs:text-[13.5px] sm:text-[18px] lg:text-[18px] xl:text-[18px] 2xl:text-[18px] 3xl:text-[18px]">
             <p>© 2025 Horizon</p>
             <Link
               href="https://www.linkedin.com/company/horizonera"
